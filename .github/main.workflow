@@ -1,3 +1,3 @@
-workflow "    3\\. Branch management workflow" {
-  on = "push"
+workflow "Branch management workflow" {
+  on = "pull_request"
 }
